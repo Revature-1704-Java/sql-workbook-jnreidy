@@ -218,8 +218,8 @@ end;
 
 
 begin
-    delete from INVOICELine where invoiceid = iid;
-    delete from invoice where invoiceid = iid;
+    delete from INVOICELine where invoiceid = 21;
+    delete from invoice where invoiceid = 21;
     commit;
 end;
 /
